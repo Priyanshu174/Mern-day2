@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+   background-color: rgb(245, 243, 243);
+}
+header , .nav-l , .nav-r , .login{
+    display: flex;
+    align-items: center;
+    
+}
+.nav{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: white;
+}
+
+.nav-r i{
+   margin-left: 10px;
+   margin-right: 10px;
+    font-size: 18px;
+    color: rgb(58, 57, 57);
+}
+.nav-r p{
+    font-size: 20px;
+}
+.nav-l input{
+    width: 500px;
+    font-size: 20px;
+    padding: 8px 10px ;
+    border: none;
+    background-color: rgb(214, 248, 237);
+}
+.nav-l form{
+    padding-left: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(214, 248, 237);
+    border-radius: 5px;
+}
+
+.category{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    background-color: white;
+}
+.content{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.banner{
+    margin-top: 20px;
+}
+.banner img{
+    width: 100%;
+    
+}
+.best,.beauty,.sports{
+    background-color: white;
+}
+.best h2{
+ padding: 10px;
+}
+.beauty h2{
+ padding: 10px;
+}
+.sports h2{
+ padding: 10px;
+}
+.best-main,.beauty-main,.sports-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+
+}
+.best_items,.items{
+    border: 1px solid rgb(206, 204, 204);
+    padding: 10px 25px;
+    border-radius: 2px;
+}
+.horizontal-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.horizontal-cards img{
+    width: 80%;
+}
+.horizontal-cards div{
+    width: 98%;
+    margin-right: 10px;
+    background-color: white;
+
+}
+.hc-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.hc-item div{
+    border: 1px solid rgb(206, 204, 204);
+    padding: 10px 2px;
+    border-radius: 2px;
+}
+footer{
+    display: flex;
+    background-color: rgb(38, 37, 37);
+    color: wheat;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+footer .f1{
+    display: flex;
+    justify-content: space-around;
+}
+.f1 div{
+    margin-right: 100px;
+}
+.f2 div{
+    margin-right: 100px;
+}
+footer .f2{
+    display: flex;
+    justify-content: space-around;
+    border-left: 1px solid rgb(145, 145, 244);
+}
+footer h4{
+    color:#878787;
+}
